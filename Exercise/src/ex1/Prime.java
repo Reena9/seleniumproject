@@ -19,11 +19,13 @@ public static void main(String[] args) {
          a=num%i;
 	 if(a==0)
 			{
-		    	   System.out.println("Not prime");
-			}
-				else
-				{
+		    	   
+		 System.out.println("Not prime");
+			} }
+	if(a==1)
+	{
+		
 					System.out.println("Prime");
 				}}
-}}
+}
 
