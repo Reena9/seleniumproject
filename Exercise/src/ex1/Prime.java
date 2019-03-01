@@ -14,18 +14,27 @@ public static void main(String[] args) {
 	int num=s.nextInt();
 	int a=0;
 	
-	for(int i=2; i<= num/2; i++ ) {
-
-         a=num%i;
-	 if(a==0)
-			{
-		    	   
-		 System.out.println("Not prime");
-			} }
-	if(a==1)
+	for(int i=2; i<= num/2; i++ )
 	{
+
+         
+	 if(num%i==0)
+			
+		  
+	
+	 a++;
+			} 
+	 
+	if(a==0)
+	{
+		System.out.println("Prime");
 		
-					System.out.println("Prime");
-				}}
+	}
+		 else
+		 {
+			 System.out.println("Not prime");		
+				}
+	}
 }
+
 
