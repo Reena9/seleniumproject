@@ -23,8 +23,8 @@ public static void main(String[] args) {
 		  
 	
 	 a++;
-			} 
-	 
+			
+	} 
 	if(a==0)
 	{
 		System.out.println("Prime");
@@ -35,6 +35,5 @@ public static void main(String[] args) {
 			 System.out.println("Not prime");		
 				}
 	}
+
 }
-
-
